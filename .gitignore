@@ -1,5 +1,14 @@
-out
-dist
-node_modules
-.vscode-test/
-*.vsix
+# Node.js dependencies
+node_modules/
+
+# Compiled TypeScript JavaScript files
+*.js
+*.js.map
+
+# macOS specific files
+.DS_Store
+
+# VSCode specific files
+.vscode/
+
+.env

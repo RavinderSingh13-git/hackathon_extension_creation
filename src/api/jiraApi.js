@@ -1,8 +1,10 @@
 const axios = require('axios');
+require('dotenv').config();
+
 
 const JIRA_URL = 'https://princeravinderias3.atlassian.net/rest/api/latest/issue/KAN-1?expand=names,renderedFields';
-const USERNAME = 'princeravinderias3@gmail.com';
-const API_TOKEN = 'ATATT3xFfGF0XjSWuePHeG9qJRfiHMKdKfmgGUv5iRLeQpI9CgDPfj0F4Qcjp9HRH0WVsikMg19u4qIN00ZArWj9QV2P5_oKMSuPsU5LAQ4mjUeKKxgYyJB0wjb01ZTKNbmaDNK39YMav9ust0K8MW77aKSfW2mxE46oEtLHjwbFjCL85Ygmzv4=CBC39426';
+const USERNAME = process.env.USERNAME;
+const API_TOKEN = process.env.PASSWORD;
 
 const jiraApi = axios.create({
   baseURL: JIRA_URL,

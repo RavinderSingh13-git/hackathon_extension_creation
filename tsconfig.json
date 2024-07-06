@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+	  "lib": ["es6", "dom"],
+	  "jsx": "react",
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true,
+	  "esModuleInterop": true,
+	  "allowSyntheticDefaultImports": true,
+	  "skipLibCheck": true
+	},
+	"include": ["src"]
+  }
+  

@@ -11,4 +11,4 @@ node_modules/
 # VSCode specific files
 .vscode/
 
-.env.env
+.env

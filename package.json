@@ -1,9 +1,9 @@
 {
-  "name": "SinghExtension",
-  "displayName": "SinghExtension",
+  "name": "getJiraIssue",
+  "displayName": "getJiraIssue",
   "description": "This is a demo extension for Visual Studio Code.",
   "version": "1.0.2",
-  "publisher": "mySinghtest",
+  "publisher": "mySinghtest1",
   "main": "./out/extension.js",
   "engines": {
     "vscode": "^1.50.0"
